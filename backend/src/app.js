@@ -8,7 +8,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://insta-bite-u1000.vercel",
     credentials: true
 }));
 app.use(cookieParser());
